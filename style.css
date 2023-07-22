@@ -1,0 +1,83 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    height: 100vh;
+}
+
+.container{
+    max-width: 760px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.form-container{
+    background: linear-gradient(45deg, #0081f5, #00b4fc);
+    padding: 100px 40px;
+    text-align: center;
+}
+
+.form-container .form{
+    width: 340px;
+}
+
+.form-container h2{
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#fff;
+    letter-spacing: 3px;
+}
+
+.form-container input{
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0px;
+    border-radius: 50px;
+    border: none;
+    width: 100%;
+    margin: 20px 0px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.form-container input:focus{
+    outline: none;
+}
+
+.form-container input[type="submit"]{
+    background-color: #fa9111;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#fff;
+    cursor: pointer;
+    transition: .5s all;
+}
+
+.form-container input[type="submit"]:hover{
+    background-color: #fcac4b;
+}
+
+.image-container img{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .image-container{
+        display: none;
+    }
+}
